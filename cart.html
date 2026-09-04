@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سبد خرید و پرداخت | قالب فروشگاهی</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/fonts/webfonts/Vazirmatn-font-face.css" />
+</head>
+<body>
+
+<!-- ============ HEADER (shared) ============ -->
+<header class="header">
+  <div class="header-top">
+    <div class="container">
+      <div class="top-links"><a href="index.html">خانه</a><a href="archive.html">اجاره تجهیزات</a><a href="archive.html">فروش تجهیزات</a><a href="articles.html">مقالات</a><a href="#">درباره ما</a><a href="#">تماس با ما</a></div>
+      <div class="top-contact">
+        <a class="wa" href="https://wa.me/989000000000"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24z"/></svg> واتس اپ</a>
+        <a class="phone" href="tel:02112345678"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> 021-12345678</a>
+      </div>
+    </div>
+  </div>
+  <div class="header-main">
+    <div class="container">
+      <a href="index.html" class="logo"><span class="logo-mark"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg></span><span>اجاره و فروش تجهیزات پزشکی<small>با بهترین کیفیت و مناسب‌ترین قیمت</small></span></a>
+      <div class="header-search"><input type="text" placeholder="جستجوی محصول…" /><button class="search-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></div>
+      <div class="header-actions">
+        <button class="icon-btn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></button>
+        <a class="icon-btn" href="cart.html" aria-label="سبد خرید"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg><span class="badge">۲</span></a>
+        <button class="menu-toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <nav class="nav-bar"><div class="container"><ul class="nav-list"><li><a href="archive.html" class="nav-link">اجاره تجهیزات</a></li><li><a href="archive.html" class="nav-link">فروش تجهیزات</a></li><li><a href="articles.html" class="nav-link">مقالات</a></li><li><a href="#" class="nav-link">درباره ما</a></li><li><a href="#" class="nav-link">تماس با ما</a></li></ul></div></nav>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <div class="mobile-nav-overlay"></div>
+  <div class="mobile-nav-panel">
+    <div class="mn-head"><span class="logo"><span class="logo-mark"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg></span> منو</span><button class="modal-close mn-close"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>
+    <div class="mn-list"><a href="index.html" class="mn-link">خانه</a><a href="archive.html" class="mn-link">اجاره تجهیزات</a><a href="archive.html" class="mn-link">فروش تجهیزات</a><a href="articles.html" class="mn-link">مقالات</a><a href="cart.html" class="mn-link">سبد خرید</a><a href="#" class="mn-link">درباره ما</a><a href="#" class="mn-link">تماس با ما</a></div>
+  </div>
+</div>
+
+<!-- breadcrumb -->
+<div class="container breadcrumb">
+  <ul>
+    <li><a href="index.html">خانه</a></li>
+    <li>سبد خرید و پرداخت</li>
+  </ul>
+</div>
+
+<!-- ============ CART & CHECKOUT ============ -->
+<section class="section" style="padding-top:8px" data-cart-page>
+  <div class="container">
+
+    <div class="checkout-steps">
+      <div class="wstep active"><span class="ws-dot">۱</span><span class="ws-label">سبد خرید</span></div>
+      <div class="wstep-line"></div>
+      <div class="wstep"><span class="ws-dot">۲</span><span class="ws-label">اطلاعات و پرداخت</span></div>
+      <div class="wstep-line"></div>
+      <div class="wstep"><span class="ws-dot">۳</span><span class="ws-label">ثبت نهایی</span></div>
+    </div>
+
+    <!-- empty state -->
+    <div class="cart-empty-wrap" style="display:none">
+      <div class="cart-empty">
+        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin:0 auto 16px;color:var(--muted)"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+        <h3 style="margin-bottom:6px">سبد خرید شما خالی است</h3>
+        <p style="margin-bottom:20px">برای شروع، محصولات را از صفحه فروشگاه انتخاب کنید.</p>
+        <a href="archive.html" class="btn btn-primary">مشاهده محصولات</a>
+      </div>
+    </div>
+
+    <div class="cart-full">
+      <!-- ===== STEP 1: CART ===== -->
+      <div class="cart-panel">
+        <div class="cart-layout">
+          <div class="cart-items">
+            <div class="cart-item" data-kind="rent" data-price="2000000">
+              <div class="ci-media"><img src="https://media.base44.com/images/public/6a987cca698aa279a69f2d21/8056483fc_generated_a8c3f36f.jpg" alt="" /></div>
+              <div class="ci-body">
+                <span class="ci-kind rent">اجاره</span>
+                <h3 class="ci-title">تخت بیمارستانی سه شکن برقی</h3>
+                <div class="ci-meta"><span>مدت: دو هفته</span><span>تحویل: ۵ شهریور</span></div>
+                <div class="ci-row">
+                  <div class="qty-stepper" title="تعداد دستگاه">
+                    <button data-qty="minus" aria-label="کاهش"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+                    <span class="qty-val">۱</span>
+                    <button data-qty="plus" aria-label="افزایش"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+                  </div>
+                  <span class="ci-price">۲,۰۰۰,۰۰۰ <span class="unit">تومان</span></span>
+                  <button class="ci-remove"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg> حذف</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart-item" data-kind="rent" data-price="850000">
+              <div class="ci-media"><img src="https://media.base44.com/images/public/6a987cca698aa279a69f2d21/de5807e85_generated_e6e79aff.png" alt="" /></div>
+              <div class="ci-body">
+                <span class="ci-kind rent">اجاره</span>
+                <h3 class="ci-title">دستگاه اکسیژن ساز ۵ لیتری</h3>
+                <div class="ci-meta"><span>مدت: یک ماه</span><span>تحویل: ۵ شهریور</span></div>
+                <div class="ci-row">
+                  <div class="qty-stepper" title="تعداد دستگاه">
+                    <button data-qty="minus" aria-label="کاهش"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+                    <span class="qty-val">۱</span>
+                    <button data-qty="plus" aria-label="افزایش"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+                  </div>
+                  <span class="ci-price">۸۵۰,۰۰۰ <span class="unit">تومان</span></span>
+                  <button class="ci-remove"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg> حذف</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart-item" data-kind="buy" data-price="8500000">
+              <div class="ci-media"><img src="https://media.base44.com/images/public/6a987cca698aa279a69f2d21/643c2d095_generated_631becbc.jpg" alt="" /></div>
+              <div class="ci-body">
+                <span class="ci-kind buy">خرید</span>
+                <h3 class="ci-title">ویلچر ارتوپدی تاشو</h3>
+                <div class="ci-meta"><span>رنگ: مشکی</span><span>ارسال: ۲ روز کاری</span></div>
+                <div class="ci-row">
+                  <div class="qty-stepper" title="تعداد">
+                    <button data-qty="minus" aria-label="کاهش"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+                    <span class="qty-val">۱</span>
+                    <button data-qty="plus" aria-label="افزایش"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+                  </div>
+                  <span class="ci-price">۸,۵۰۰,۰۰۰ <span class="unit">تومان</span></span>
+                  <button class="ci-remove"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg> حذف</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="summary-box">
+            <h3>خلاصه سفارش</h3>
+            <div class="sum-row"><span>جمع اجاره</span><span class="sv" id="sumRent">۲,۸۵۰,۰۰۰</span></div>
+            <div class="sum-row"><span>جمع خرید</span><span class="sv" id="sumBuy">۸,۵۰۰,۰۰۰</span></div>
+            <div class="sum-row"><span>هزینه حمل و نصب</span><span class="sv" style="font-weight:500;font-size:.82rem">پس از بررسی آدرس</span></div>
+            <div class="sum-row"><span>تخفیف</span><span class="sv" id="sumDiscount" style="color:var(--crimson)">۰</span></div>
+            <div class="sum-row total"><span>مبلغ قابل پرداخت (تومان)</span><span id="sumTotal">۱۱,۳۵۰,۰۰۰</span></div>
+            <div class="coupon-row">
+              <input type="text" placeholder="کد تخفیف دارید؟" />
+              <button class="btn btn-ghost" data-coupon>اعمال</button>
+            </div>
+            <p class="coupon-msg"></p>
+            <button class="btn btn-primary btn-block btn-lg" data-cart="next">ادامه فرآیند خرید</button>
+          </aside>
+        </div>
+      </div>
+
+      <!-- ===== STEP 2: CHECKOUT ===== -->
+      <div class="cart-panel" style="display:none">
+        <div class="cart-layout">
+          <div>
+            <div class="pd-info" style="margin-bottom:20px">
+              <h3 style="font-size:1.05rem;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid var(--stroke-soft)">اطلاعات تماس</h3>
+              <div class="form-grid">
+                <div class="form-field"><label>نام و نام خانوادگی <span class="req">*</span></label><input type="text" required placeholder="نام کامل" /></div>
+                <div class="form-field"><label>شماره موبایل <span class="req">*</span></label><input type="tel" required placeholder="09xxxxxxxxx" style="direction:ltr;text-align:left" /></div>
+                <div class="form-field full"><label>ایمیل (اختیاری)</label><input type="email" placeholder="example@mail.com" style="direction:ltr;text-align:left" /></div>
+              </div>
+            </div>
+
+            <div class="pd-info" style="margin-bottom:20px">
+              <h3 style="font-size:1.05rem;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid var(--stroke-soft)">آدرس تحویل</h3>
+              <div class="form-grid">
+                <div class="form-field"><label>استان <span class="req">*</span></label><select required><option value="">انتخاب کنید…</option><option>تهران</option><option>البرز</option><option>اصفهان</option><option>فارس</option></select></div>
+                <div class="form-field"><label>شهر <span class="req">*</span></label><select required><option value="">انتخاب کنید…</option><option>تهران</option><option>کرج</option><option>اصفهان</option><option>شیراز</option></select></div>
+                <div class="form-field full"><label>آدرس کامل <span class="req">*</span></label><input type="text" required placeholder="خیابان، کوچه، پلاک، واحد" /></div>
+                <div class="form-field"><label>کد پستی</label><input type="text" placeholder="##########" style="direction:ltr;text-align:left" /></div>
+                <div class="form-field"><label>زمان تحویل مورد نظر</label><select><option>در اسرع وقت</option><option>امروز</option><option>این هفته</option><option>با هماهنگی تلفنی</option></select></div>
+              </div>
+            </div>
+
+            <div class="pd-info">
+              <h3 style="font-size:1.05rem;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid var(--stroke-soft)">روش پرداخت</h3>
+              <div class="select-cards" style="grid-template-columns:1fr;gap:12px">
+                <div class="pay-method active">
+                  <span class="pm-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg></span>
+                  <span><h4>درگاه پرداخت آنلاین</h4><p>پرداخت امن با تمام کارت‌های بانکی عضو شتاب</p></span>
+                </div>
+                <div class="pay-method">
+                  <span class="pm-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></span>
+                  <span><h4>کارت به کارت</h4><p>پس از ثبت سفارش، اطلاعات کارت پیامک می‌شود</p></span>
+                </div>
+                <div class="pay-method">
+                  <span class="pm-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg></span>
+                  <span><h4>پرداخت در محل تحویل</h4><p>پس از هماهنگی با کارشناس (ویژه تهران)</p></span>
+                </div>
+              </div>
+              <div class="cart-error">لطفاً موارد ستاره‌دار را تکمیل کنید.</div>
+            </div>
+
+            <div style="display:flex;gap:10px;margin-top:22px;flex-wrap:wrap">
+              <button class="btn btn-ghost" data-cart="back"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg> بازگشت به سبد</button>
+              <button class="btn btn-primary" style="flex:1" data-cart="submit"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ثبت و پرداخت سفارش</button>
+            </div>
+          </div>
+
+          <aside class="summary-box">
+            <h3>خلاصه سفارش</h3>
+            <div class="sum-row"><span>جمع اجاره</span><span class="sv" id="sumRent2">۲,۸۵۰,۰۰۰</span></div>
+            <div class="sum-row"><span>جمع خرید</span><span class="sv" id="sumBuy2">۸,۵۰۰,۰۰۰</span></div>
+            <div class="sum-row"><span>تخفیف</span><span class="sv" style="color:var(--crimson)">۰</span></div>
+            <div class="sum-row total"><span>مبلغ قابل پرداخت (تومان)</span><span>۱۱,۳۵۰,۰۰۰</span></div>
+            <div class="notice-bar" style="margin:14px 0 0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> هزینه حمل و نصب پس از بررسی آدرس محاسبه و پیش از ارسال اعلام می‌شود.</div>
+          </aside>
+        </div>
+      </div>
+
+      <!-- ===== STEP 3: SUCCESS ===== -->
+      <div class="cart-panel" style="display:none">
+        <div class="success-box">
+          <div class="success-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>
+          <h2>سفارش شما با موفقیت ثبت شد</h2>
+          <p class="sub">کارشناسان ما حداکثر تا ۱۵ دقیقه آینده برای هماهنگی ارسال با شما تماس می‌گیرند.</p>
+          <div class="order-code">NB-10235</div>
+          <div class="order-steps">
+            <h4>مراحل بعدی سفارش شما:</h4>
+            <ol>
+              <li>بررسی و تأیید سفارش توسط کارشناس</li>
+              <li>هماهنگی زمان تحویل و محاسبه هزینه حمل</li>
+              <li>ارسال و نصب تجهیزات در محل شما</li>
+              <li>تحویل نهایی و آموزش استفاده از دستگاه</li>
+            </ol>
+          </div>
+          <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+            <a href="index.html" class="btn btn-primary">بازگشت به خانه</a>
+            <a href="archive.html" class="btn btn-outline">ادامه خرید</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ FOOTER (shared) ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-about"><h4>درباره ما</h4><p>مرکز تخصصی اجاره و فروش تجهیزات پزشکی.</p><div class="social-row"><a href="#"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24z"/></svg></a><a href="#"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a></div></div>
+      <div class="footer-col"><h4>دسته‌بندی محصولات</h4><ul><li><a href="archive.html">تخت بیمارستانی</a></li><li><a href="archive.html">ویلچر</a></li><li><a href="archive.html">اکسیژن ساز</a></li></ul></div>
+      <div class="footer-col"><h4>دسترسی سریع</h4><ul><li><a href="cart.html">سبد خرید</a></li><li><a href="articles.html">مقالات</a></li><li><a href="#">تماس با ما</a></li></ul></div>
+      <div class="footer-col"><h4>اطلاعات تماس</h4><ul class="footer-contact"><li><span class="fc-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span> تهران، خیابان ولیعصر</li><li><span class="fc-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg></span> ۰۲۱-۱۲۳۴۵۶۷۸</li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© ۱۴۰۳ تمامی حقوق محفوظ است.</span><div class="footer-bottom-links"><a href="#">حریم خصوصی</a><a href="#">شرایط استفاده</a></div></div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/cart.js"></script>
+</body>
+</html>
